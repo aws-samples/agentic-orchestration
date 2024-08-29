@@ -1,7 +1,7 @@
 # Reasoning Orchestration Workshop using Amazon Bedrock, KnowledgeBase, and Langchain
 This repository provides step-by-step instructions for creating a collaborative multi-agent system that leverages graph-based orchestration. It demonstrates how to combine Amazon Bedrock Agent with agents developed using open-source frameworks, enabling enhanced reasoning capabilities and seamless integration.  The exercise will guide you through the process of building a reasoning orchestration system using [Amazon Bedrock](https://aws.amazon.com/bedrock/), [KnowledgeBase for Amazon Bedrock](https://aws.amazon.com/bedrock/knowledge-bases/) and [Agents for Amazon Bedrock](https://aws.amazon.com/bedrock/agents/). We will also explore the integration of Bedrock agents with open source orchestration frameworks [LangGgraph](https://langchain-ai.github.io/langgraph/) and [CrewAI](https://github.com/crewAIInc/crewAI) for dispatching and reasoning.
 
-<img src="./images/agentic_orchestration.png" style="width:70%;display:block;margin: 0 auto;">
+<img src="./notebooks/images/agentic_orchestration.png" style="width:70%;display:block;margin: 0 auto;">
 <br/>
 
 ## Overview
@@ -35,7 +35,6 @@ Develop your Reasoning Orchestration System: Combine the knowledge and tools you
 
 Test and Refine: Thoroughly test your reasoning orchestration system, and make any necessary adjustments to improve its performance and reliability.
 
-<img src="./images/agentic_integration.png" style="width:70%;display:block;margin: 0 auto;">
 
 ## Definitions
 
