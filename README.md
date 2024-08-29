@@ -35,6 +35,8 @@ Develop your Reasoning Orchestration System: Combine the knowledge and tools you
 
 Test and Refine: Thoroughly test your reasoning orchestration system, and make any necessary adjustments to improve its performance and reliability.
 
+<img src="./images/agentic_integration.png" style="width:70%;display:block;margin: 0 auto;">
+
 ## Definitions
 
 ## Agents or Agentic Services:
