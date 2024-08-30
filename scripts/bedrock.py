@@ -5,6 +5,8 @@ from langchain_aws import BedrockLLM, ChatBedrock, ChatBedrockConverse, BedrockE
 from botocore.config import Config
 from botocore.exceptions import ClientError
 
+bedrock_agent_runtime_client = boto3.client('bedrock-agent-runtime')
+
 ## Setup LLMs
 def get_llm(model_id: str, aws_region: str='us-west-2',):
     config = Config(
@@ -37,20 +39,12 @@ def get_llm(model_id: str, aws_region: str='us-west-2',):
             model_kwargs=inference_modifier,
             region_name=aws_region,
         ) 
-    elif 'claude-3' in model_id or 'mistral' in model_id:
+    elif 'claude-3' in model_id or 'mistral' in model_id or 'llama3-1' in model_id:
         llm = ChatBedrockConverse(
             model=model_id,
             client=bedrock_client,
             temperature=0.01,
-            max_tokens=4096,
-            region_name=aws_region,
-        )
-    elif 'llama3-1' in model_id:
-        llm = ChatBedrockConverse(
-            model=model_id,
-            client=bedrock_client,
-            temperature=0.01,
-            max_tokens=2048,
+            max_tokens=2048 if 'llama3-1' in model_id else 4096,
             region_name=aws_region,
         )
     else:
