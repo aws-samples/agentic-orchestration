@@ -13,12 +13,12 @@ langchain_aws
 langgraph
 duckduckgo-search
 tavily-python
-crewai
-grpcio==1.48 
-grpcio-tools==1.48
+grpcio>=1.48 
+grpcio-tools>=1.48
 python-dotenv
 setuptools==69.5.1
-crewai[tools]
+crewai
+#crewai[tools]
 unstructured
 sec_api
 opensearch-py
