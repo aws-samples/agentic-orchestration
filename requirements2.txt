@@ -3,7 +3,7 @@ tavily-python
 grpcio>=1.48 
 grpcio-tools>=1.48
 python-dotenv
-setuptools==69.5.1
+setuptools==70.0.0
 crewai
 crewai[tools]
 unstructured
