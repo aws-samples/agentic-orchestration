@@ -6,4 +6,5 @@ python-dotenv
 setuptools==69.5.1
 crewai
 crewai[tools]
+unstructured
 #pygraphviz

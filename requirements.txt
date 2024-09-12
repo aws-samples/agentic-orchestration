@@ -2,7 +2,6 @@ boto3
 botocore
 langchain-aws
 ipywidgets
-langgraph
 chromadb
 typing-extensions
 langchain-community
@@ -11,7 +10,6 @@ langchain_huggingface
 langchain
 langchain_aws
 langgraph
-unstructured
 sec_api
 opensearch-py
 retrying
