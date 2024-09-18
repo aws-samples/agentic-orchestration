@@ -39,6 +39,27 @@ def create_dynamodb(table_name):
     print(f'Table {table_name} created successfully!')
     return
 
+def get_agent_lambda_role_arn(role_name):
+    # Create an IAM client
+    iam_client = boto3.client('iam')
+
+    try:
+        # Get the role information
+        response = iam_client.get_role(RoleName=role_name)
+
+        # Extract the ARN from the response
+        role_arn = response['Role']['Arn']
+
+        return response
+
+    except iam_client.exceptions.NoSuchEntityException:
+        print(f"Role '{role_name}' not found.")
+        return None
+
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+        return None
+        
 
 def create_lambda(lambda_function_name, lambda_iam_role):
     # add to function
