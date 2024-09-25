@@ -1,5 +1,6 @@
 boto3
 botocore
+setuptools==68.2.2
 langchain-aws==0.1.18
 ipywidgets
 chromadb
