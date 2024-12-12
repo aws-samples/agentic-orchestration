@@ -1,5 +1,5 @@
-# Reasoning Orchestration Workshop using Amazon Bedrock, KnowledgeBase, and Langchain
-This repository provides step-by-step instructions for creating a collaborative multi-agent system that leverages graph-based orchestration. It demonstrates how to combine Amazon Bedrock Agent with agents developed using open-source frameworks, enabling enhanced reasoning capabilities and seamless integration.  The exercise will guide you through the process of building a reasoning orchestration system using [Amazon Bedrock](https://aws.amazon.com/bedrock/), [KnowledgeBase for Amazon Bedrock](https://aws.amazon.com/bedrock/knowledge-bases/) and [Agents for Amazon Bedrock](https://aws.amazon.com/bedrock/agents/) as well as customer fine tuned models. We will also explore the integration of Bedrock agents with open source orchestration frameworks [LangGgraph](https://langchain-ai.github.io/langgraph/) and [CrewAI](https://github.com/crewAIInc/crewAI) for dispatching and reasoning.
+# Reasoning Orchestration Workshop using Amazon Bedrock, Knowledge Base, and Langchain
+This repository provides step-by-step instructions for creating a collaborative multi-agent system that leverages graph-based orchestration. It demonstrates how to combine Amazon Bedrock Agent with agents developed using open-source frameworks, enabling enhanced reasoning capabilities and seamless integration.  The exercise will guide you through the process of building a reasoning orchestration system using [Amazon Bedrock](https://aws.amazon.com/bedrock/), [Knowledge Base for Amazon Bedrock](https://aws.amazon.com/bedrock/knowledge-bases/) and [Agents for Amazon Bedrock](https://aws.amazon.com/bedrock/agents/) as well as customer fine tuned models. We will also explore the integration of Bedrock agents with open source orchestration frameworks [LangGgraph](https://langchain-ai.github.io/langgraph/) and [CrewAI](https://github.com/crewAIInc/crewAI) for dispatching and reasoning.
 
 <img src="./notebooks/images/agentic_orchestration.png" style="width:70%;display:block;margin: 0 auto;">
 <br/>
@@ -8,11 +8,11 @@ This repository provides step-by-step instructions for creating a collaborative 
 In this workshop, you will learn how to:
 
 1. Build a multimodal agentic orchestration framework using AWS and open source tools
-3. Set up and configure Amazon Bedrock, a foundation for building large language models (LLMs) and other AI-powered applications, including Agent and KNowledgeBase.
+3. Set up and configure Amazon Bedrock, a foundation for building large language models (LLMs) and other AI-powered applications, including Agent and KNowledge Base.
 5. Set up a open source RAG solution using Chroma and an embedding engine of your choice.
 6. Utilize Langchain, a framework for building applications with large language models, to orchestrate the reasoning process.
 7. Integrate Langgraph, a tool for managing agentic services, to dispatch and reason about the various components of your system.
-8. Integrate open source langgraph with Amazon Bedrock Agent which is acssociated with Amazon Lambda and Amazon Bedrock KnowledgeBase 
+8. Integrate open source langgraph with Amazon Bedrock Agent which is acssociated with Amazon Lambda and Amazon Bedrock Knowledge Base 
 
 ## Prerequisites
 Workshop practioners are expected to have  LLM, Jupyter Notebook and Python working experience.
@@ -25,13 +25,13 @@ Workshop practioners are expected to have  LLM, Jupyter Notebook and Python work
 
 Set up Amazon Bedrock: Follow the official Amazon Bedrock documentation to create your Bedrock environment and configure the necessary permissions and resources.
 
-Integrate KnowledgeBase: Explore the KnowledgeBase service and learn how to integrate it with your Bedrock-powered application. Ensure that your knowledge base is populated with relevant information to support your reasoning tasks.
+Integrate Knowledge Base: Explore the Knowledge Base service and learn how to integrate it with your Bedrock-powered application. Ensure that your knowledge base is populated with relevant information to support your reasoning tasks.
 
 Utilize Langchain: Dive into the Langchain framework and understand how to use it to orchestrate the reasoning process. Explore the various Langchain components, such as agents, chains, and prompts, to build your reasoning system.
 
 Integrate Langgraph: Introduce Langgraph into your system to manage the agentic services involved in the reasoning process. Learn how to dispatch tasks and reason about the various components of your system using Langgraph.
 
-Develop your Reasoning Orchestration System: Combine the knowledge and tools you've acquired to build your reasoning orchestration system. Ensure that the different components (Bedrock, KnowledgeBase, Langchain, and Langgraph) work seamlessly together to provide the desired functionality.
+Develop your Reasoning Orchestration System: Combine the knowledge and tools you've acquired to build your reasoning orchestration system. Ensure that the different components (Bedrock, Knowledge Base, Langchain, and Langgraph) work seamlessly together to provide the desired functionality.
 
 Test and Refine: Thoroughly test your reasoning orchestration system, and make any necessary adjustments to improve its performance and reliability.
 
@@ -67,6 +67,6 @@ Multi-agent collaboration involves multiple agents working together to achieve c
 * [CrewAI Framwork](https://github.com/crewAIInc/crewAI)
   
 ## Conclusion
-By the end of this workshop, you will have a solid understanding of how to build a agentic orchestration system using Amazon Bedrock, KnowledgeBase, Langchain, and Langgraph. This knowledge will enable you to create powerful genreatiev AI-powered applications that can effectively reason about complex problems and make informed decisions.
+By the end of this workshop, you will have a solid understanding of how to build a agentic orchestration system using Amazon Bedrock, Knowledge Base, Langchain, and Langgraph. This knowledge will enable you to create powerful genreatiev AI-powered applications that can effectively reason about complex problems and make informed decisions.
 
 
